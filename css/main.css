@@ -1,31 +1,45 @@
 body {
-    margin: 60px auto;
-    width: 70%;
     position: relative;
 }
-
-nav{
-position: fixed;
+.nav{
+    position: fixed;
     top: 0;
     left: 0;
     height: 80px;
     background: rgb(37, 99, 235);
     width: 100%;
 }
+ .nav__ul{
+     padding: 0;
+     margin: 0;
+     height: 100%;
+     display: flex;
+     align-items: center;
+ }
+.nav__li {
+    margin-right: 1rem;
+}
+ .nav__a {
+     padding: 1rem;
+     font-size: 24px;
+     
+ }
 
+.main{
+    margin-top: 140px;
+}
 nav ul, footer ul {
     font-family:'Consolas', 'monaco', 'monospace';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
+ footer ul li {
     margin-right: 20px;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
