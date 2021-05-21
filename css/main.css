@@ -10,6 +10,7 @@ position: fixed;
     left: 0;
     height: 80px;
     background: blue;
+    width: 100%;
 }
 
 nav ul, footer ul {
